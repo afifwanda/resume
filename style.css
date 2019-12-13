@@ -1,0 +1,247 @@
+html{
+  size: fixed;
+  min-width: 1290px;
+  min-height: 1190px;
+}
+
+header{
+  background: /*linear-gradient(-45deg, #135702,#0b2003)*/;
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+header li{
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Lato';
+  font-size: 20px;
+  color: white;
+}
+
+header ul{
+margin: 20px auto;
+padding: 0 10px;
+text-align: center;
+}
+
+ul #Experience{
+margin: auto;
+padding: 0px;
+text-align:justify;
+color:black;
+font-family: 'Lato';
+font-weight: 300;
+position: relative;
+right: 30px;
+}
+
+li #Experience{
+text-align: justify;
+position: relative;
+color: black;
+}
+
+body{
+  background: linear-gradient(-45deg, rgb(17, 51, 85), #141E30);
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+main{
+background-color: white;
+margin: 120px;
+padding: 10px;
+height: 100%;
+}
+
+form{
+
+}
+
+input[type=text]{
+  width: 30%;
+  padding: 12px 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  background-color: rgb(12, 12, 12);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font: 'Lato';
+}
+
+#drive input[type=submit]{
+  background-color: rgb(12, 12, 12);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font: 'Lato';
+}
+
+#drive{
+  position: relative;
+  right: 65px;
+}
+
+#name{
+  display: inline-block;
+  position: relative;
+  left: 210px;
+}
+
+#number{
+  display: inline-block;
+  position: relative;
+  left: 370px;
+}
+
+#text{
+  display: inline-block;
+  position: relative;
+  left: 370px;
+}
+
+#submit{
+  display: inline-block;
+  position: relative;
+  left: 465px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.columnresume{
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border{
+  border-top: 1px solid black;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Poiret One', sans-serif;
+  color: white;
+  font-height: 12em;
+  position: relative;
+  top: 50px;
+}
+
+h2{
+ text-align: center;
+ font-family: 'Lato';
+ font-weight: 300;
+}
+
+h3{
+text-align: center;
+font-family: 'Lato',sans-serif;
+font-weight: 300;
+color: white;
+padding: 10px;
+margin: 10px auto;
+}
+
+h4{
+text-align: center;
+font-family: 'Lato',sans-serif;
+font-weight: 300;
+color: black;
+padding: 0px;
+margin: 20px auto;
+}
+
+p{
+ text-align: justify;
+ font-family: 'Lato';
+ font-weight: 300;
+}
+
+.column p{
+ text-align: justify;
+ font-family: 'Lato';
+ font-weight: 300;
+ padding: 10%;
+ margin-top: 40px;
+ margin-right: 40px;
+}
+
+#skill{
+text-align: center;
+font-family: 'Lato';
+font-weight: 300;
+}
+
+#education{
+text-align: justify;
+font-family: 'Lato';
+font-weight: 300;
+position: relative;
+left: 120px;
+}
+
+#experience{
+text-align: justify;
+font-family: 'Lato';
+font-weight: 300;
+position: relative;
+top: 40px;
+left: 70px;
+}
+
+footer{
+  background: linear-gradient(-45deg, #161616,#1d1d1c);
+  border-top: 1px solid white;
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+  margin-top: 400px;
+}
+
+a{
+  color: white;
+}
+
+.imageprofile{
+  padding: 10%;
+  position: relative;
+  left: 90px;
+}
+
+#contact{
+ border-bottom: 1px solid white;
+}
+
+section{
+  border-right: 1px solid white;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 31.34%;
+}
+
+#contact p{
+  color: white;
+}
