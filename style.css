@@ -92,7 +92,7 @@ input[type=submit]{
 
 #drive{
   position: relative;
-  right: 65px;
+  text-align: center;
 }
 
 #name{
