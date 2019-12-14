@@ -1,7 +1,7 @@
 html{
   size: fixed;
-  min-width: 1280px;
-  min-height: 720px;
+  min-width: 1024px;
+  min-height: 576px;
 }
 
 header{
@@ -88,11 +88,12 @@ input[type=submit]{
   margin: 4px 2px;
   cursor: pointer;
   font: 'Lato';
+  text-align: center;
 }
 
 #drive{
-  position: relative;
-  text-align: center;
+position: relative;
+text-align: center;
 }
 
 #name{
@@ -104,19 +105,24 @@ input[type=submit]{
 #number{
   display: inline-block;
   position: relative;
-  left: 370px;
+  text-align: left;
 }
 
 #text{
   display: inline-block;
   position: relative;
-  left: 370px;
+  text-align: center;
+}
+
+#center{
+  position: relative;
+  text-align: center;
 }
 
 #submit{
   display: inline-block;
   position: relative;
-  left: 465px;
+  text-align: center;
 }
 
 .column{
@@ -216,8 +222,8 @@ footer{
   position: relative;
   padding: 1px;
   width: 100%;
-  height: 100%;
-  margin-top: 400px;
+  height: 100%
+  margin-top: 350px;
 }
 
 a{
@@ -236,7 +242,7 @@ a{
 
 section{
   border-right: 1px solid white;
-  display: inline-block;
+  display: inline-block;*/
   margin: 10px auto;
   padding: 10px;
   width: 31.34%;
